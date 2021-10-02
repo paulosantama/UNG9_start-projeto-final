@@ -1,0 +1,66 @@
+div {
+  font-family: 'Press Start 2P', cursive;
+}
+
+.boxLimitado {
+  margin-left: -30px;
+  width: 400px;
+  height: 400px;
+}
+
+div.row {
+  margin-top: 40px;
+}
+
+a.botao {
+  font-size: 15px;
+  background-color: lightgreen;
+}
+
+a:link, a:visited {
+  background-color: white;
+  color: green;
+  text-decoration: none;
+  border: 4px solid green;
+}
+
+a:hover, a:active {
+  background-color: lightgreen;
+  color: green;
+  border: 4px solid green;
+}
+
+ul li {
+  list-style: none;
+  width: 110px;
+  height: 110px;
+  float: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  cursor: pointer;
+}
+
+.kz-border-bottom {
+  border-bottom: 8px solid #333;
+}
+
+.kz-border-right {
+  border-right: 8px solid #333;
+}
+
+.kz-img-x {
+  background-image: url('src/assets/imagens/x.png');
+}
+
+.kz-img-o {
+  background-image: url('src/assets/imagens/o.png');
+}
+
+.kz-cor-vitoria {
+  background-color: lightgreen;
+}
+
+.modoJogoSelecionado {
+  background-color: lightgreen !important;
+}
